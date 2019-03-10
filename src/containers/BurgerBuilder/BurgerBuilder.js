@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import {INGREDIENT_PRICES, BASE_BURGER_PRICE} from '../../configurations/Burger/BurgerConfig';
-import Auxiliar from '../../hoc/Auxilar';
+import Auxiliar from '../../hoc/Auxiliar/Auxilar';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modal/Modal';
